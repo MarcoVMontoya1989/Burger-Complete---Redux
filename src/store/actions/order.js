@@ -1,0 +1,87 @@
+import * as actionTypes from '../actions/actionsType';
+import axios from '../../http/axios-order';
+
+export const purchaseBurgerSuccess = (id, orderData) => {
+    return {
+        type: actionTypes.PURCHASE_BURGER_SUCCESS,
+        orderId: id,
+        orderData: orderData
+    }
+};
+
+export const purchaseBurgerFailed = (error) => {
+    return {
+        type: actionTypes.PURCHASE_BURGER_FAILED,
+        error: error
+    }
+};
+
+export const purchaseBurgerStart = () => {
+  return {
+      type: actionTypes.PURCHASE_BURGER_START,
+  }
+};
+
+export const purchaseBurger = (orderData) => {
+    console.log(orderData);
+    return dispatch => {
+        dispatch(purchaseBurgerStart());
+        axios.post('/orders.json', orderData).then(res => {
+            console.log(res.data);
+            dispatch(purchaseBurgerSuccess(res.data.name, orderData))
+        }).catch(error => {
+            dispatch(purchaseBurgerFailed(error))
+        });
+    }
+};
+
+export const purchaseInit = () => {
+  return {
+      type: actionTypes.PURCHASE_INIT
+  }
+};
+
+//------------------------------------------------------------ FETCH ORDERS
+
+export const fetchOrderSuccess = (fetchOrders) => {
+    return {
+        type: actionTypes.FETCH_ORDERS_SUCCESS,
+        orders: fetchOrders
+    }
+};
+
+export const fetchOrderFailed = (error) => {
+    return {
+        type: actionTypes.FETCH_ORDERS_FAILED,
+        error: error
+    }
+};
+
+export const fetchOrderStart = () => {
+    return {
+        type: actionTypes.FETCH_ORDERS_START,
+    }
+};
+
+export const fetchOrder = (orderData) => {
+    console.log(orderData);
+    return dispatch => {
+        dispatch(fetchOrderStart());
+        axios.get('/orders.json').then(result => {
+            const fetchedOrders = [];
+
+            for (let key in result.data) {
+                fetchedOrders.push({
+                    ...result.data[key],
+                    id: key,
+                });
+            }
+
+            dispatch(fetchOrderSuccess(fetchedOrders));
+        }).catch(error => {
+            dispatch(fetchOrderFailed(error))
+        });
+    }
+};
+
+

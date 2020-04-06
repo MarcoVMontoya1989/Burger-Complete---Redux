@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f17049f2-9503-4ae6-82b8-4d1759960de3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1YeD2YGnlHLpkF2HOdLaCOXqyPz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mark V\Desktop\original (1)\routing-burger--03-finished\src\components\Burger" />
+      <recent name="C:\Users\Mark V\Desktop\original (1)\routing-burger--03-finished\src\containers" />
+      <recent name="C:\Users\Mark V\Desktop\original (1)\routing-burger--03-finished\src" />
+      <recent name="C:\Users\Mark V\Desktop\original (1)\routing-burger--03-finished\src\assets" />
+      <recent name="C:\Users\Mark V\Desktop\original (1)\routing-burger--03-finished\src\components" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BurgerRedux" type="JavascriptDebugType" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:3000/" useFirstLineBreakpoints="true">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f17049f2-9503-4ae6-82b8-4d1759960de3" name="Default Changelist" comment="" />
+      <created>1583293959695</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583293959695</updated>
+      <workItem from="1583293961661" duration="3262000" />
+      <workItem from="1583329608876" duration="5966000" />
+      <workItem from="1583354325060" duration="2126000" />
+      <workItem from="1583369702391" duration="1074000" />
+      <workItem from="1583370817605" duration="15000" />
+      <workItem from="1583371446819" duration="5032000" />
+      <workItem from="1583423111769" duration="4334000" />
+      <workItem from="1583524444684" duration="4577000" />
+      <workItem from="1583701015606" duration="600000" />
+      <workItem from="1583703403856" duration="11921000" />
+      <workItem from="1583757437666" duration="11158000" />
+      <workItem from="1583796383086" duration="7157000" />
+      <workItem from="1584555860784" duration="695000" />
+      <workItem from="1584556607948" duration="13351000" />
+      <workItem from="1584997511260" duration="5856000" />
+      <workItem from="1585052535195" duration="11420000" />
+      <workItem from="1585138220519" duration="1198000" />
+      <workItem from="1585360172176" duration="18000" />
+      <workItem from="1585360218891" duration="912000" />
+      <workItem from="1585578709332" duration="5042000" />
+      <workItem from="1585664327271" duration="10432000" />
+      <workItem from="1585782735095" duration="6530000" />
+      <workItem from="1585960617210" duration="4222000" />
+      <workItem from="1586048789019" duration="5411000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="734" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585966581556">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="734" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1585966581556" />
+    <state x="1600" y="261" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585360185173">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1600" y="261" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/2560.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1585360185173" />
+    <state x="370" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583372242876">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="370" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/2560.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1583372242876" />
+    <state x="1060" y="280" key="FileChooserDialogImpl" timestamp="1583809530878">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1060" y="280" key="FileChooserDialogImpl/2560.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1583809530878" />
+    <state width="2539" height="242" key="GridCell.Tab.0.bottom" timestamp="1585967000650">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2539" height="242" key="GridCell.Tab.0.bottom/2560.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1585967000650" />
+    <state width="2539" height="242" key="GridCell.Tab.0.center" timestamp="1585967000650">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2539" height="242" key="GridCell.Tab.0.center/2560.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1585967000650" />
+    <state width="2539" height="242" key="GridCell.Tab.0.left" timestamp="1585967000650">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2539" height="242" key="GridCell.Tab.0.left/2560.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1585967000650" />
+    <state width="2539" height="242" key="GridCell.Tab.0.right" timestamp="1585967000650">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2539" height="242" key="GridCell.Tab.0.right/2560.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1585967000650" />
+    <state width="2539" height="242" key="GridCell.Tab.1.bottom" timestamp="1585967000650">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2539" height="242" key="GridCell.Tab.1.bottom/2560.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1585967000650" />
+    <state width="2539" height="242" key="GridCell.Tab.1.center" timestamp="1585967000650">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2539" height="242" key="GridCell.Tab.1.center/2560.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1585967000650" />
+    <state width="2539" height="242" key="GridCell.Tab.1.left" timestamp="1585967000650">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2539" height="242" key="GridCell.Tab.1.left/2560.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1585967000650" />
+    <state width="2539" height="242" key="GridCell.Tab.1.right" timestamp="1585967000650">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2539" height="242" key="GridCell.Tab.1.right/2560.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1585967000650" />
+    <state width="2539" height="242" key="GridCell.Tab.2.bottom" timestamp="1585967000651">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2539" height="242" key="GridCell.Tab.2.bottom/2560.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1585967000650" />
+    <state width="2539" height="242" key="GridCell.Tab.2.center" timestamp="1585967000650">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2539" height="242" key="GridCell.Tab.2.center/2560.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1585967000650" />
+    <state width="2539" height="242" key="GridCell.Tab.2.left" timestamp="1585967000650">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2539" height="242" key="GridCell.Tab.2.left/2560.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1585967000650" />
+    <state width="2539" height="242" key="GridCell.Tab.2.right" timestamp="1585967000650">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2539" height="242" key="GridCell.Tab.2.right/2560.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1585967000650" />
+    <state x="1063" y="268" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585787347155">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1063" y="268" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/2560.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1585787347155" />
+    <state x="713" y="44" width="1206" height="924" key="find.popup" timestamp="1585964519447">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="713" y="44" width="1206" height="924" key="find.popup/2560.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1585964519447" />
+    <state x="936" y="243" key="run.anything.popup" timestamp="1586049205521">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="936" y="243" key="run.anything.popup/2560.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1586049205521" />
+    <state x="943" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1586049220367">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="943" y="227" width="672" height="678" key="search.everywhere.popup/2560.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1586049220367" />
+  </component>
+</project>
