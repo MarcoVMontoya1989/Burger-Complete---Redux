@@ -10,6 +10,7 @@ const NavigationItems = () => {
             {/*<NavigationItem link='/'>Checkout</NavigationItem>*/}
             <NavigationItem link='/orders'>Orders</NavigationItem>
             {/*<li><a href="/">Foobar</a></li>*/}
+            <NavigationItem link='/auth'>Authenticate</NavigationItem>
         </ul>
     );
 };
