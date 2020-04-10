@@ -10,11 +10,13 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import burgerBuilderReducer from "./store/reducers/burgerBuilder";
 import orderReducers from "./store/reducers/order";
+import authReducer from "./store/reducers/auth";
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const rootReducer = combineReducers({
-   burgerBuilder: burgerBuilderReducer,
-   orderBuilder: orderReducers
+    burgerBuilder: burgerBuilderReducer,
+    orderBuilder: orderReducers,
+    authBuilder: authReducer
 });
 
 const store = createStore(rootReducer, composeEnhancers(

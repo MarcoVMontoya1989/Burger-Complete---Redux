@@ -8,7 +8,7 @@ const controls = [
     {label: 'Bacon', type: 'bacon'},
     {label: 'Meat', type: 'meat'},
 ];
-console.log('buildcontrol: ', this.props);
+
 const BuildControls = (props) => (
     <div className={classes.BuildControls}>
         <p>Current price: <strong>{props.price}</strong></p>
@@ -33,7 +33,7 @@ const BuildControls = (props) => (
             disabled={!props.purchasable}
             onClick={props.modalPurchase}
         >
-            Order Now
+            { props.isAuthenticated ? 'ORDER NOW' : 'SIGN UP TO ORDER'}
         </button>
     </div>
 );
