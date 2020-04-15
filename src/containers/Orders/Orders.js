@@ -9,7 +9,7 @@ import * as orderBuilder from '../../store/actions/index';
 
 class Orders extends Component {
     componentDidMount() {
-        this.props.onOrderInit(this.props.token);
+        this.props.onOrderInit(this.props.token, this.props.userId);
     };
 
     render() {
@@ -36,13 +36,14 @@ const mapPropsToState = (state) => {
     return {
         orders: state.orderBuilder.orders,
         loading: state.orderBuilder.loading,
-        token: state.authBuilder.token
+        token: state.authBuilder.token,
+        userId: state.authBuilder.userId
     }
 };
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        onOrderInit: (token) => dispatch(orderBuilder.fetchOrder(token))
+        onOrderInit: (token, userId) => dispatch(orderBuilder.fetchOrder(token, userId))
     }
 };
 

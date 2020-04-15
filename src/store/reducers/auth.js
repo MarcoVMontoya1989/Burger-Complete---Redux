@@ -1,5 +1,5 @@
 import * as actionTypes from '../actions/actionsType';
-import {updateObject} from '../utility';
+import {updateObject} from '../../shared/utility';
 
 const initialState = {
     token: null,
@@ -23,7 +23,6 @@ const authSuccess = (state, action) => {
 };
 
 const authFail = (state, action) => {
-    console.log('ENTERED TO AUTHFAIL FUNCTION');
     return updateObject(state, {
         error: action.error,
         loading: false,
@@ -44,7 +43,6 @@ const setAuthRedirectPath = (state, action) => {
 };
 
 const reducer = (state = initialState, actions) => {
-    console.log('actionTypes.AUTH_FAIL', actions);
     switch (actions.type) {
         case actionTypes.AUTH_FAIL:
             return authFail(state, actions);

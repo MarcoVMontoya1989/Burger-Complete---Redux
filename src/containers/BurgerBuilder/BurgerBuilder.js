@@ -19,7 +19,6 @@ class BurgerBuilder extends Component {
     };
 
     componentDidMount() {
-        // console.log(this.props);
         this.props.onInitIngredients();
     };
 
@@ -68,7 +67,6 @@ class BurgerBuilder extends Component {
         let burger = this.props.error ? <p>Ingredients can't be loaded!</p> : <Spinner/>;
 
         if (this.props.ings) {
-            console.log('burgerbuilder totalprice', this.props.totalPrice);
             burger = (
                 <Aux>
                     <Burger ingredients={this.props.ings}/>
@@ -76,7 +74,7 @@ class BurgerBuilder extends Component {
                         ingredientAdded={this.props.onAddIngredients}
                         ingredientRemove={this.props.onRemoveIngredients}
                         disable={disabledInfo}
-                        price={this.props.totalPrice}
+                        price={this.props.totalPrice.toFixed(2)}
                         purchasable={this.updatePurchaseState(this.props.ings)}
                         modalPurchase={this.purchaseHandler}
                         isAuthenticated={this.props.isAuthenticated}

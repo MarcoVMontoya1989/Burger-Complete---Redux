@@ -14,7 +14,6 @@ const BuildControls = (props) => (
         <p>Current price: <strong>{props.price}</strong></p>
         {
             controls.map(ctrl => (
-                // {console.log(ctrl.label, ctrl.type)}
                 <BuildControl
                     key={ctrl.label}
                     label={ctrl.label}
