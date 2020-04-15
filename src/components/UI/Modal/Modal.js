@@ -23,12 +23,10 @@ import Aux from "../../../hoc/Auxiliar";
 
 class Modal extends Component {
     shouldComponentUpdate(nextProps) {
-        // console.log('[Modal shouldComponentUpdate]');
         return nextProps.modal !== this.props.modal || nextProps.children !== this.props.children
     }
 
     componentWillUpdate() {
-        // console.log('[Modal componentWillUpdate]');
     }
 
     render() {
