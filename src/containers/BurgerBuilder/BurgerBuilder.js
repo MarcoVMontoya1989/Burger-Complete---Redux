@@ -11,9 +11,8 @@ import WithErrorHandler from "../../hoc/withErrorHandler/withErrorHandler";
 
 import * as actionsBuilder from '../../store/actions/index';
 import axios from '../../http/axios-order';
-import * as authBuilder from "../../store/actions";
 
-class BurgerBuilder extends Component {
+export class BurgerBuilder extends Component {
     state = {
         showPurchaseModal: false,
     };
@@ -74,7 +73,7 @@ class BurgerBuilder extends Component {
                         ingredientAdded={this.props.onAddIngredients}
                         ingredientRemove={this.props.onRemoveIngredients}
                         disable={disabledInfo}
-                        price={this.props.totalPrice.toFixed(2)}
+                        price={this.props.totalPrice}
                         purchasable={this.updatePurchaseState(this.props.ings)}
                         modalPurchase={this.purchaseHandler}
                         isAuthenticated={this.props.isAuthenticated}
